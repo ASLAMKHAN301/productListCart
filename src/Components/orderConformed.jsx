@@ -11,7 +11,7 @@ export function OrderConfirmed() {
     <div className="bg-black bg-opacity-50 backdrop-blur-md fixed top-0 left-0 w-full h-full flex items-center justify-center">
       <div className="rounded-lg bg-white max-w-xl p-5 md:p-10 w-full">
         <img
-          src="assets/images/icon-order-confirmed.svg"
+          src="s/images/icon-order-confirmed.svg"
           alt="Order Confirmed"
         />
         <p className="text-3xl font-bold mt-3 text-rose-900">Order Confirmed</p>

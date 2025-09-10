@@ -36,7 +36,7 @@ export function Cart() {
               </div>
 
               <div className="flex items-center justify-center mt-5 py-2 bg-rose-50 space-x-2 rounded-sm">
-                <img src="assets/images/icon-carbon-neutral.svg" alt="" />
+                <img src="/images/icon-carbon-neutral.svg" alt="" />
                 <p className="text-sm font-medium text-rose-500">
                   This is a{" "}
                   <span className="text-rose-900">carbon-neutral</span> delivery

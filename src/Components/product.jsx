@@ -33,7 +33,7 @@ export function Product({ product = {} }) {
           onClick={() => dispatch(addToCart(product))}
         >
           <div className="flex space-x-3">
-            <img src="assets/images/icon-add-to-cart.svg" alt="" />
+            <img src="/images/icon-add-to-cart.svg" alt="" />
             <p className="text-lg font-medium text-rose-900">Add to Cart</p>
           </div>
         </button>
@@ -43,7 +43,7 @@ export function Product({ product = {} }) {
         >
           <div className="flex space-x-16">
             <img
-              src="assets/images/icon-decrement-quantity.svg"
+              src="/images/icon-decrement-quantity.svg"
               onClick={() => dispatch(decrementQuantity(product.id))}
               className={`border opacity-80 rounded-full w-6 h-6 p-1 minus-icon-${product.id}`}
               alt=""
@@ -52,7 +52,7 @@ export function Product({ product = {} }) {
               {cartItem.quantity}
             </span>
             <img
-              src="assets/images/icon-increment-quantity.svg"
+              src="/images/icon-increment-quantity.svg"
               onClick={() => dispatch(incrementQuantity(product.id))}
               className={`border opacity-80 rounded-full w-6 h-6 p-1 plus-icon-${product.id}`}
               alt=""

@@ -11,7 +11,7 @@ export function AddToCart() {
       <div>
         {items.length === 0 ? (
           <div className="emptyCart-cont flex flex-col items-center mt-12">
-            <img src="assets/images/illustration-empty-cart.svg" alt="" />
+            <img src="/images/illustration-empty-cart.svg" alt="" />
             <p className="text-sm font-medium text-rose-400 text-center mt-3 mb-2">
               Your added items will appear here
             </p>
@@ -48,7 +48,7 @@ export function AddToCart() {
                 <div className="flex items-center">
                   <div className="rounded-full w-5 h-5 border-[2px] border-rose-300 p-[2px] cursor-pointer">
                     <img
-                      src="/assets/images/icon-remove-item.svg"
+                      src="/images/icon-remove-item.svg"
                       onClick={() => dispatch(removeFromCart(product.id))}
                       alt="Remove Item"
                       className={`w-4 close-${product.id}`}
